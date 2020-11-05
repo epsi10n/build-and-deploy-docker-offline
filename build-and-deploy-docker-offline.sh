@@ -3,7 +3,7 @@
 # command sample
 # build-and-deploy-docker-offline -l docker-compose-build-prod.yml -f docker-compose.yml -o /home/epsi10n/docker-images-exported -r nl-sp-adp01 -u default -p default -d /home/default [...service_name]
 
-USAGE_TEXT="Usage: build-and-deploy-docker5-offline [-l,--local-compose-filename] [-f,--remote-compose-filename] [-o,--output-dir] [-r,--remote-host] [-u,--user] [-p,--password] [-d,--remote-dir] [SERVICE]..."
+USAGE_TEXT="Usage: build-and-deploy-docker-offline [-l,--local-compose-filename] [-f,--remote-compose-filename] [-o,--output-dir] [-r,--remote-host] [-u,--user] [-p,--password] [-d,--remote-dir] [SERVICE]..."
 DISPLAY_HELP=0
 
 # Step 0 - parse command-line options
